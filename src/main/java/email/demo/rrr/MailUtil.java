@@ -55,6 +55,15 @@ public class MailUtil {
 
 
 
+
+
+
+
+
+
+
+
+
         // 3. 创建一封邮件
         MimeMessage message = createMimeMessage(session, myEmailAccount, mailAddress,title,body);
         
