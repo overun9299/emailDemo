@@ -30,7 +30,8 @@ public class MailUtil {
 	
 	@Value("${mail.myEmailAccount}")
 	private String myEmailAccount;
-	
+
+
 	@Value("${mail.myEmailPassword}")
 	private String myEmailPassword;
 
