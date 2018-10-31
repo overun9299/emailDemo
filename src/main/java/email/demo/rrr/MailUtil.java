@@ -54,6 +54,7 @@ public class MailUtil {
         session.setDebug(false);                                 // 设置为debug模式, 可以查看详细的发送 log
 
 
+
         // 3. 创建一封邮件
         MimeMessage message = createMimeMessage(session, myEmailAccount, mailAddress,title,body);
         
